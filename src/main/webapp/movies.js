@@ -31,6 +31,5 @@ $(document).ready(function() {
             theme: 'fontawesome-stars',
             showSelectedRating: true
           });
-       debugger;
     });
 });

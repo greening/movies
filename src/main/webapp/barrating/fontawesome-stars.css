@@ -10,21 +10,23 @@
   margin-right: 2px;
 }
 .br-theme-fontawesome-stars .br-widget a:after {
-  content: '\2605';
-  color: #dddddd;
+  content: '\2606';
+  color: #808080;
 }
 .br-theme-fontawesome-stars .br-widget a.br-active:after {
-  color: #88af44;
+  content: '\2605';
+	color: #000000;
 }
 .br-theme-fontawesome-stars .br-widget a.br-selected:after {
   color: #88af44;
+    content: '\2605';
 }
 .br-theme-fontawesome-stars .br-widget .br-current-rating {
   display: none;
 }
 @media print {
   .br-theme-fontawesome-stars .br-widget a:after {
-    content: '\2605';
+    content: '\2606';
     color: black;
   }
   .br-theme-fontawesome-stars .br-widget a.br-active:after,
