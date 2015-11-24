@@ -1,0 +1,10 @@
+.movies>div>img {
+	 height: 180px;
+	 width: auto;
+	 float: left; 
+	 padding-right: 20px; 
+	 vertical-align: text-top;
+}
+.movies>div>select {
+	 display: block;
+}
